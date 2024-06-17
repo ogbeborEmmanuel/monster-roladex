@@ -1,0 +1,33 @@
+.cardlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+.card {
+  background-color: silver;
+  margin: 20px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.card h3 {
+  font-size: 20px;
+}
+.card h6 {
+  font-size: 16px;
+}
+
+.search {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.search:focus {
+  outline: none;
+}
